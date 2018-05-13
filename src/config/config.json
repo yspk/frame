@@ -1,0 +1,18 @@
+{
+  "production_env": false,
+  "root": "../",
+  "log_root":"../log/",
+  "storage_root": "../data/",
+  "db_name": "mysql",
+  "db_source": "root:toor@tcp(localhost:3306)/ims?charset=utf8&parseTime=True&loc=Local",
+  "logger_level": 0,
+  "orm_log_enabled": true,
+  "cache_redis_addr": "127.0.0.1:2000",
+  "cache_redis_password":"123456",
+  "validate_email":{
+    "host":"smtp.exmail.qq.com:25",
+    "name":"yusheng",
+    "account":"ys@baoquan.com",
+    "password":"QAZxsw2"
+  }
+}
