@@ -1,19 +1,19 @@
 package main
 
 import (
-	"coding.net/baoquan2017/candy-backend/src/common/cache"
-	"coding.net/baoquan2017/candy-backend/src/common/constant"
-	"coding.net/baoquan2017/candy-backend/src/common/logger"
-	"coding.net/baoquan2017/candy-backend/src/common/middleware"
-	"coding.net/baoquan2017/candy-backend/src/config"
-	"coding.net/baoquan2017/candy-backend/src/controller/back"
-	"coding.net/baoquan2017/candy-backend/src/controller/front"
-	"coding.net/baoquan2017/candy-backend/src/model"
+	"github.com/yspk/frame/src/common/cache"
+	"github.com/yspk/frame/src/common/constant"
+	"github.com/yspk/frame/src/common/logger"
+	"github.com/yspk/frame/src/common/middleware"
+	"github.com/yspk/frame/src/config"
+	"github.com/yspk/frame/src/controller/back"
+	"github.com/yspk/frame/src/controller/front"
+	"github.com/yspk/frame/src/model"
 	"flag"
 	"github.com/gin-gonic/gin"
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/jinzhu/gorm"
-	"coding.net/baoquan2017/candy-backend/src/common/sensitive"
+	"github.com/yspk/frame/src/common/sensitive"
 )
 
 func main() {
@@ -30,7 +30,7 @@ func main() {
 
 	//TODO
 	filter := sensitive.New()
-	filter.LoadWordDict("/usr/local/gopath/src/coding.net/baoquan2017/candy-backend/src/common/sensitive/dict/dict.txt")
+	filter.LoadWordDict("/usr/local/gopath/src/github.com/yspk/frame/src/common/sensitive/dict/dict.txt")
 	logger.Fatal(filter.Replace("静静是色魔",42))
 
 

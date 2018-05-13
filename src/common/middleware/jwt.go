@@ -1,7 +1,7 @@
 package middleware
 
 import (
-	"coding.net/baoquan2017/candy-backend/src/common/constant"
+	"github.com/yspk/frame/src/common/constant"
 	"errors"
 	"github.com/dgrijalva/jwt-go"
 	"github.com/gin-gonic/gin"

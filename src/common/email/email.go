@@ -2,11 +2,11 @@ package email
 
 import (
 	"bytes"
-	"coding.net/baoquan2017/candy-backend/src/common/constant"
-	"coding.net/baoquan2017/candy-backend/src/common/email/send"
-	"coding.net/baoquan2017/candy-backend/src/common/email/validate"
-	"coding.net/baoquan2017/candy-backend/src/common/logger"
-	"coding.net/baoquan2017/candy-backend/src/config"
+	"github.com/yspk/frame/src/common/constant"
+	"github.com/yspk/frame/src/common/email/send"
+	"github.com/yspk/frame/src/common/email/validate"
+	"github.com/yspk/frame/src/common/logger"
+	"github.com/yspk/frame/src/config"
 	"net/mail"
 	"sync"
 )

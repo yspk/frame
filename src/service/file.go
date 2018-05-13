@@ -2,12 +2,12 @@ package service
 
 import (
 	"bytes"
-	"coding.net/baoquan2017/candy-backend/src/common/constant"
-	"coding.net/baoquan2017/candy-backend/src/common/logger"
-	"coding.net/baoquan2017/candy-backend/src/common/util"
-	"coding.net/baoquan2017/candy-backend/src/common/uuid"
-	"coding.net/baoquan2017/candy-backend/src/config"
-	"coding.net/baoquan2017/candy-backend/src/model"
+	"github.com/yspk/frame/src/common/constant"
+	"github.com/yspk/frame/src/common/logger"
+	"github.com/yspk/frame/src/common/util"
+	"github.com/yspk/frame/src/common/uuid"
+	"github.com/yspk/frame/src/config"
+	"github.com/yspk/frame/src/model"
 	"errors"
 	"fmt"
 	"github.com/disintegration/imaging"

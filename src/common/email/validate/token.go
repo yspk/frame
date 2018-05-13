@@ -9,7 +9,7 @@ import (
 	"strings"
 	"time"
 
-	"coding.net/baoquan2017/candy-backend/src/common/constant"
+	"github.com/yspk/frame/src/common/constant"
 	"gopkg.in/LyricTian/lib.v2"
 )
 

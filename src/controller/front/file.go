@@ -1,12 +1,12 @@
 package front
 
 import (
-	"coding.net/baoquan2017/candy-backend/src/common/constant"
-	"coding.net/baoquan2017/candy-backend/src/common/logger"
-	"coding.net/baoquan2017/candy-backend/src/common/util"
-	"coding.net/baoquan2017/candy-backend/src/config"
-	"coding.net/baoquan2017/candy-backend/src/model"
-	"coding.net/baoquan2017/candy-backend/src/service"
+	"github.com/yspk/frame/src/common/constant"
+	"github.com/yspk/frame/src/common/logger"
+	"github.com/yspk/frame/src/common/util"
+	"github.com/yspk/frame/src/config"
+	"github.com/yspk/frame/src/model"
+	"github.com/yspk/frame/src/service"
 	"github.com/gin-gonic/gin"
 	"github.com/jinzhu/gorm"
 	"mime"

@@ -1,7 +1,7 @@
 package util
 
 import (
-	"coding.net/baoquan2017/candy-backend/src/common/constant"
+	"github.com/yspk/frame/src/common/constant"
 	"regexp"
 )
 

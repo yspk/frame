@@ -2,7 +2,7 @@ package sensitive_test
 
 import (
 	"fmt"
-	"coding.net/baoquan2017/candy-backend/src/common/sensitive"
+	"github.com/yspk/frame/src/common/sensitive"
 )
 
 func ExampleFilter() {

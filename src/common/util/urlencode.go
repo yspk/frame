@@ -1,7 +1,7 @@
 package util
 
 import (
-	"coding.net/baoquan2017/candy-backend/src/common/logger"
+	"github.com/yspk/frame/src/common/logger"
 	"fmt"
 	"net/url"
 )

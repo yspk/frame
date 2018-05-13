@@ -1,7 +1,7 @@
 package cache
 
 import (
-	"coding.net/baoquan2017/candy-backend/src/common/logger"
+	"github.com/yspk/frame/src/common/logger"
 	"errors"
 	"sync"
 	"time"
